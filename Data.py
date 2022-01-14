@@ -31,13 +31,11 @@ By @SHRIYANSHCHAT
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("🎪 About 🎪", callback_data="about")],,
-        ]
-    # Help Message
+        [InlineKeyboardButton("🎪 About 🎪", callback_data="about")],
+    ]   
+        # Help Message
     HELP = """
 ✨ **Available Commands** ✨
-
-/help - This Message
 /start - Start the Bot
 /generate - Start Generating Session
 /cancel - Cancel the process
