@@ -15,7 +15,7 @@ If you don't trust this bot,
 Still reading?
 You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
 
-By @StarkBots
+By @SHRIYANSHCHAT
     """
 
     # Home Button
@@ -31,37 +31,15 @@ By @StarkBots
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
-        [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
-        ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-    ]
-
+        [InlineKeyboardButton("🎪 About 🎪", callback_data="about")],,
+        ]
     # Help Message
     HELP = """
 ✨ **Available Commands** ✨
 
-/about - About The Bot
 /help - This Message
 /start - Start the Bot
 /generate - Start Generating Session
 /cancel - Cancel the process
 /restart - Cancel the process
 """
-
-    # About Message
-    ABOUT = """
-**About This Bot** 
-
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
-    """
